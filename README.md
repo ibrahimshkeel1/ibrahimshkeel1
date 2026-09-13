@@ -10,11 +10,12 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,vite,tailwind,nodejs,express,fastapi,supabase,postgres,redis,docker,vercel,stripe,git,ubuntu&perline=12" />
+    <img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,vite,tailwind,nodejs,express,fastapi,supabase,postgres,redis,docker,vercel,gcp,git,ubuntu&perline=9" />
   </a>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/n8n-FF6666?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
+  <img src="https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white" alt="Stripe" />
   <img src="https://img.shields.io/badge/Hetzner_VPS-D50C2D?style=for-the-badge&logo=hetzner&logoColor=white" alt="Hetzner VPS" />
 </p>
 
