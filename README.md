@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard-banner.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/dashboard-banner.svg">
-    <img alt="Animated Cyber-Physical Banner" src="assets/dashboard-banner.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cyber-banner.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/cyber-banner.svg">
+    <img alt="Animated Cyber-Physical Banner" src="assets/cyber-banner.svg" width="100%">
   </picture>
 </div>
 
@@ -18,10 +18,10 @@
   <img src="https://img.shields.io/badge/Hetzner_VPS-D50C2D?style=for-the-badge&logo=hetzner&logoColor=white" alt="Hetzner VPS" />
 </p>
 
-### 🛰️ TELEMETRY
+### 🛰️ LIVE TELEMETRY
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ibrahimshkeel1&theme=transparent" width="100%" />
+  <img src="https://streak-stats.demolab.com?user=ibrahimshkeel1&theme=transparent&hide_border=true&title_color=3FB950&text_color=8B949E&icon_color=3FB950&sideNums=E6EDF3&sideLabels=8B949E&ring=3FB950&fire=3FB950&currStreakLabel=3FB950" width="100%" />
 </div>
 
 <br/>
