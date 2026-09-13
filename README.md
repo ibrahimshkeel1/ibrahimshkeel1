@@ -1,50 +1,57 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=183B3F&height=250&section=header&text=Ibrahim%20Shakeel&fontSize=50&fontAlignY=40&desc=Full-Stack%20Product%20Engineer&descAlignY=65&descSize=22&fontColor=E7E0D4" width="100%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner.svg">
+    <img alt="Animated Cyber-Physical Banner" src="assets/banner.svg" width="100%">
+  </picture>
 </div>
 
 <br/>
 
 <div align="center">
-  <a href="https://portfolio-lilac-gamma-87.vercel.app/">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Building+AI+Systems;Crafting+Production+Marketplaces;Architecting+Automation+Pipelines;Turning+complex+problems+into+simple+systems&font=Space+Grotesk&size=20&color=38B2AC&center=true&vCenter=true&width=500" />
-  </a>
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <b>SYS.LOCATION</b><br/>
+        <code>[ Lahore, Pakistan ]</code>
+      </td>
+      <td align="center" width="50%">
+        <b>SYS.STATUS</b><br/>
+        <code>[ Available for Opportunities ]</code>
+      </td>
+    </tr>
+  </table>
 </div>
 
-<br/>
+### ⧉ ARCHITECTURE & DEPLOYMENTS
 
-### 👨‍💻 About
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://portfolio-lilac-gamma-87.vercel.app/#projects">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahimshkeel1&repo=portfolio&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e&icon_color=38B2AC&bg_color=171B1C" />
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://portfolio-lilac-gamma-87.vercel.app/#projects">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahimshkeel1&repo=socialbuddy&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e&icon_color=38B2AC&bg_color=171B1C" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-I'm a full-stack developer based in Lahore, Pakistan. I specialize in building practical software, AI systems, and automation. My focus spans **AI automation pipelines**, **vertical SaaS**, and **marketplaces**. If a problem is repetitive, inefficient, or difficult to scale, I turn it into a simple, usable product.
+### ⚙️ CORE STACK
 
-<br/>
-
-### 🛠 Core Technologies
-
-<p align="left">
+<p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,fastapi,supabase,postgres,docker,redis,vercel&perline=12" />
   </a>
 </p>
 
-<br/>
-
-### 🚀 Systems & Architecture
-
-<p align="left">
-  <a href="https://portfolio-lilac-gamma-87.vercel.app/#projects">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahimshkeel1&repo=portfolio&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e&icon_color=38B2AC" />
-  </a>
-  <a href="https://portfolio-lilac-gamma-87.vercel.app/#projects">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahimshkeel1&repo=socialbuddy&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e&icon_color=38B2AC" />
-  </a>
-</p>
-
-<br/>
-
-### 📈 Impact & Activity
+### 🛰️ TELEMETRY
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ibrahimshkeel1&show_icons=true&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e&icon_color=38B2AC&rank_icon=github" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ibrahimshkeel1&show_icons=true&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e&icon_color=38B2AC" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahimshkeel1&layout=compact&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e" width="48%" />
 </div>
 
@@ -58,15 +65,12 @@ I'm a full-stack developer based in Lahore, Pakistan. I specialize in building p
   </picture>
 </div>
 
-<br/>
-
 ---
-
 <div align="center">
   <a href="mailto:ibrahimshkeel1@gmail.com">
-    <img src="https://img.shields.io/badge/Email-183B3F?style=for-the-badge&logo=gmail&logoColor=E7E0D4" alt="Email" />
+    <img src="https://img.shields.io/badge/INITIATE_CONTACT-183B3F?style=for-the-badge&logo=gmail&logoColor=E7E0D4" alt="Email" />
   </a>
   <a href="https://portfolio-lilac-gamma-87.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-183B3F?style=for-the-badge&logo=vercel&logoColor=E7E0D4" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/VIEW_PORTFOLIO-183B3F?style=for-the-badge&logo=vercel&logoColor=E7E0D4" alt="Portfolio" />
   </a>
 </div>
