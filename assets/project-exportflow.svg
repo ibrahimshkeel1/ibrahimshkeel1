@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 180" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0D1117; stroke: #30363D; stroke-width: 1.5; rx: 8; }
+      .grid-line { stroke: #30363D; stroke-width: 1; opacity: 0.2; }
+      .text-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 28px; font-weight: 800; fill: #C9D1D9; letter-spacing: 2px; }
+      .text-sub { font-family: ui-monospace, Monaco, monospace; font-size: 12px; fill: #3FB950; letter-spacing: 1px; }
+      .text-desc { font-family: ui-monospace, Monaco, monospace; font-size: 11px; fill: #8B949E; line-height: 1.5; }
+      .text-tag { font-family: ui-monospace, Monaco, monospace; font-size: 10px; fill: #E6EDF3; font-weight: bold; }
+      
+      .tag-box { fill: #161B22; stroke: #30363D; stroke-width: 1; rx: 4; }
+      .tag-box-ai { fill: #161B22; stroke: #F78166; stroke-width: 1; rx: 4; }
+    </style>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" class="grid-line"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="848" height="178" class="bg"/>
+  <rect x="1" y="1" width="848" height="178" fill="url(#grid)" rx="8"/>
+  
+  <text x="30" y="45" class="text-title">EXPORTFLOW</text>
+  <text x="30" y="70" class="text-sub">> AUTOMATED B2B LEAD GENERATION ENGINE</text>
+  
+  <text x="30" y="100" class="text-desc">Autonomous crawler &amp; qualification pipeline. Ingests buyer intent,</text>
+  <text x="30" y="120" class="text-desc">runs concurrent Playwright instances via proxy rotation, and scores</text>
+  <text x="30" y="140" class="text-desc">product fit in real-time using AI heuristic engines.</text>
+
+  <g transform="translate(550, 30)">
+    <rect x="0" y="0" width="80" height="24" class="tag-box"/>
+    <text x="40" y="16" class="text-tag" text-anchor="middle">PYTHON</text>
+
+    <rect x="90" y="0" width="90" height="24" class="tag-box"/>
+    <text x="135" y="16" class="text-tag" text-anchor="middle">PLAYWRIGHT</text>
+
+    <rect x="190" y="0" width="70" height="24" class="tag-box"/>
+    <text x="225" y="16" class="text-tag" text-anchor="middle">AIOHTTP</text>
+    
+    <rect x="0" y="35" width="80" height="24" class="tag-box"/>
+    <text x="40" y="51" class="text-tag" text-anchor="middle">NEXT.JS</text>
+
+    <rect x="90" y="35" width="90" height="24" class="tag-box-ai"/>
+    <text x="135" y="51" class="text-tag" text-anchor="middle" fill="#F78166">N8N ENGINE</text>
+
+    <rect x="190" y="35" width="70" height="24" class="tag-box"/>
+    <text x="225" y="51" class="text-tag" text-anchor="middle">SUPABASE</text>
+  </g>
+
+  <g transform="translate(550, 110)">
+    <text x="0" y="0" class="text-desc" style="font-size: 9px; fill: #30363D;">PIPELINE SCHEMATIC</text>
+    <path d="M 0 15 L 260 15" stroke="#30363D" stroke-width="1.5" stroke-dasharray="2"/>
+    <circle cx="10" cy="15" r="4" fill="#58A6FF"/>
+    <circle cx="90" cy="15" r="4" fill="#A371F7"/>
+    <circle cx="170" cy="15" r="4" fill="#3FB950"/>
+    <circle cx="250" cy="15" r="4" fill="#F78166"/>
+    
+    <text x="10" y="35" class="text-desc" style="font-size: 8px;" text-anchor="middle">INTAKE</text>
+    <text x="90" y="35" class="text-desc" style="font-size: 8px;" text-anchor="middle">SCRAPE</text>
+    <text x="170" y="35" class="text-desc" style="font-size: 8px;" text-anchor="middle">SCORE</text>
+    <text x="250" y="35" class="text-desc" style="font-size: 8px;" text-anchor="middle">OUTREACH</text>
+  </g>
+</svg>

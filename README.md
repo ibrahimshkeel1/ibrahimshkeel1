@@ -19,6 +19,30 @@
   <img src="https://img.shields.io/badge/Hetzner_VPS-D50C2D?style=for-the-badge&logo=hetzner&logoColor=white" alt="Hetzner VPS" />
 </p>
 
+### ⧉ FEATURED SYSTEMS
+
+<div align="center">
+  <a href="https://portfolio-lilac-gamma-87.vercel.app/#projects">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/project-atlas.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/project-atlas.svg">
+      <img alt="Atlas Finance AI Blueprint" src="assets/project-atlas.svg" width="100%">
+    </picture>
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="https://portfolio-lilac-gamma-87.vercel.app/#projects">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/project-exportflow.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/project-exportflow.svg">
+      <img alt="ExportFlow Blueprint" src="assets/project-exportflow.svg" width="100%">
+    </picture>
+  </a>
+</div>
+
 ### ⧉ ARCHITECTURE BLUEPRINT
 
 <div align="center">
