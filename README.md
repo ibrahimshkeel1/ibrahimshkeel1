@@ -35,13 +35,25 @@
 <table>
   <tr>
     <td width="50%">
-      <a href="https://portfolio-lilac-gamma-87.vercel.app/#projects">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahimshkeel1&repo=portfolio&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e&icon_color=38B2AC&description_lines_count=2" />
+      <a href="https://github.com/ibrahimshkeel1/atlas">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahimshkeel1&repo=atlas&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e&icon_color=38B2AC&description_lines_count=2" />
       </a>
     </td>
     <td width="50%">
-      <a href="https://portfolio-lilac-gamma-87.vercel.app/#projects">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahimshkeel1&repo=socialbuddy&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e&icon_color=38B2AC&description_lines_count=2" />
+      <a href="https://github.com/ibrahimshkeel1/engsols">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahimshkeel1&repo=engsols&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e&icon_color=38B2AC&description_lines_count=2" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/ibrahimshkeel1/exporter-scraper">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahimshkeel1&repo=exporter-scraper&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e&icon_color=38B2AC&description_lines_count=2" />
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/ibrahimshkeel1/Liftrz">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahimshkeel1&repo=Liftrz&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e&icon_color=38B2AC&description_lines_count=2" />
       </a>
     </td>
   </tr>
