@@ -23,24 +23,7 @@
   </table>
 </div>
 
-### ⧉ ARCHITECTURE & DEPLOYMENTS
-
-<table>
-  <tr>
-    <td width="50%">
-      <a href="https://portfolio-lilac-gamma-87.vercel.app/#projects">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahimshkeel1&repo=portfolio&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e&icon_color=38B2AC&bg_color=171B1C" />
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://portfolio-lilac-gamma-87.vercel.app/#projects">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ibrahimshkeel1&repo=socialbuddy&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e&icon_color=38B2AC&bg_color=171B1C" />
-      </a>
-    </td>
-  </tr>
-</table>
-
-### ⚙️ CORE STACK
+### ⧉ CORE STACK
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -51,8 +34,7 @@
 ### 🛰️ TELEMETRY
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ibrahimshkeel1&show_icons=true&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e&icon_color=38B2AC" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahimshkeel1&layout=compact&theme=transparent&hide_border=true&title_color=38B2AC&text_color=8b949e" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ibrahimshkeel1&theme=transparent" width="100%" />
 </div>
 
 <br/>
