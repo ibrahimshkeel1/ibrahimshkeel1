@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 320" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #E7E0D4; }
+      .text-primary { fill: #171B1C; }
+      .text-secondary { fill: #171B1C; opacity: 0.8; }
+      .accent { fill: #183B3F; }
+      .accent-stroke { stroke: #183B3F; }
+      
+      .font-display { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-weight: 800; }
+      .font-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .font-mono { font-family: ui-monospace, Monaco, monospace; font-size: 10.5px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; }
+
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .cursor { animation: blink 1s step-end infinite; }
+      
+      .sine-wave { fill: none; stroke-width: 1.5; opacity: 0.2; }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" class="bg" rx="12"/>
+
+  <path class="sine-wave accent-stroke" d="M -100 270 Q 0 285 100 270 Q 200 255 300 270 Q 400 285 500 270 Q 600 255 700 270 Q 800 285 900 270 Q 1000 255 1100 270"/>
+  
+  <circle r="3" class="accent">
+    <animateMotion dur="8s" repeatCount="indefinite" path="M -100 270 Q 0 285 100 270 Q 200 255 300 270 Q 400 285 500 270 Q 600 255 700 270 Q 800 285 900 270 Q 1000 255 1100 270"/>
+  </circle>
+
+  <g transform="translate(60, 0)">
+    
+    <g transform="translate(0, 60)">
+      <rect x="0" y="0" width="240" height="28" class="accent-stroke" fill="none" stroke-width="1" rx="14" opacity="0.3"/>
+      <circle cx="15" cy="14" r="3.5" class="accent"/>
+      <text x="28" y="17.5" class="accent font-mono">AVAILABLE FOR NEW OPPORTUNITIES</text>
+    </g>
+
+    <text x="0" y="150" class="text-primary font-display" font-size="52" letter-spacing="-1.5">Ibrahim Shakeel</text>
+    <rect x="415" y="108" width="16" height="48" class="accent cursor"/>
+
+    <text x="0" y="195" class="accent font-display" font-size="28" letter-spacing="-0.5">Full-Stack Product Engineer</text>
+
+    <text x="0" y="240" class="text-secondary font-body" font-size="17">I build production web applications and AI-powered systems,</text>
+    <text x="0" y="265" class="text-secondary font-body" font-size="17">working across the stack from frontend to backend &amp; infra.</text>
+  </g>
+</svg>
