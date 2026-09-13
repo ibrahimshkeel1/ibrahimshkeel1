@@ -53,9 +53,7 @@
     <text x="0" y="215" class="text-secondary font-body">and I can work across the stack from frontend to backend, AI</text>
     <text x="0" y="240" class="text-secondary font-body">integrations, databases, APIs, deployment, and infrastructure.</text>
     
-    <!-- View My Work -->
-    <text x="0" y="300" class="accent font-mono" font-weight="800">VIEW MY WORK &#x2192;</text>
-    <line x1="0" y1="310" x2="160" y2="310" class="accent-stroke" stroke-width="1.5"/>
+    
   </g>
 
   <!-- Right Image Group -->
