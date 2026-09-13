@@ -36,7 +36,7 @@
     
     <!-- Availability Badge -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="280" height="30" class="border-box" stroke-opacity="0.3"/>
+      <rect x="0" y="0" width="320" height="30" class="border-box" stroke-opacity="0.3"/>
       <circle cx="16" cy="15" r="4" class="accent"/>
       <text x="30" y="19" class="accent font-mono">AVAILABLE FOR NEW OPPORTUNITIES</text>
     </g>

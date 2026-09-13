@@ -112,13 +112,13 @@
   <text x="430" y="265" class="text-sub">Core Services</text>
 
   <!-- AI Models -->
-  <rect x="630" y="70" width="140" height="60" class="node node-ai"/>
-  <text x="700" y="100" class="text-label">VERTEX / DEEPSEEK</text>
-  <text x="700" y="115" class="text-sub">Intelligence / LLM</text>
+  <rect x="630" y="70" width="160" height="60" class="node node-ai"/>
+  <text x="710" y="100" class="text-label">VERTEX / DEEPSEEK</text>
+  <text x="710" y="115" class="text-sub">Intelligence / LLM</text>
 
   <!-- Database -->
-  <rect x="630" y="220" width="140" height="60" class="node node-db"/>
-  <text x="700" y="250" class="text-label">SUPABASE</text>
-  <text x="700" y="265" class="text-sub">Postgres / Redis</text>
+  <rect x="630" y="220" width="160" height="60" class="node node-db"/>
+  <text x="710" y="250" class="text-label">SUPABASE</text>
+  <text x="710" y="265" class="text-sub">Postgres / Redis</text>
 
 </svg>

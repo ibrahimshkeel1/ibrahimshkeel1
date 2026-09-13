@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/portfolio-hero-v3.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/portfolio-hero-v3.svg">
-    <img alt="Animated Cyber-Physical Banner" src="assets/portfolio-hero-v3.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/portfolio-hero-v4.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/portfolio-hero-v4.svg">
+    <img alt="Animated Cyber-Physical Banner" src="assets/portfolio-hero-v4.svg" width="100%">
   </picture>
 </div>
 
@@ -23,9 +23,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/architecture.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/architecture.svg">
-    <img alt="System Architecture Diagram" src="assets/architecture.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/architecture-v2.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/architecture-v2.svg">
+    <img alt="System Architecture Diagram" src="assets/architecture-v2.svg" width="100%">
   </picture>
 </div>
 
