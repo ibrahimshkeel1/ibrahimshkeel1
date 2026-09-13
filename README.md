@@ -21,7 +21,7 @@
 ### 🛰️ LIVE TELEMETRY
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=ibrahimshkeel1&theme=transparent&hide_border=true&title_color=3FB950&text_color=8B949E&icon_color=3FB950&sideNums=E6EDF3&sideLabels=8B949E&ring=3FB950&fire=3FB950&currStreakLabel=3FB950" width="100%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ibrahimshkeel1&theme=transparent" width="100%" />
 </div>
 
 <br/>
