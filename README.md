@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/cyber-banner-v2.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/cyber-banner-v2.svg">
-    <img alt="Animated Cyber-Physical Banner" src="assets/cyber-banner-v2.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/elegant-banner.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/elegant-banner.svg">
+    <img alt="Animated Cyber-Physical Banner" src="assets/elegant-banner.svg" width="100%">
   </picture>
 </div>
 
@@ -18,16 +18,6 @@
   <img src="https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white" alt="Stripe" />
   <img src="https://img.shields.io/badge/Hetzner_VPS-D50C2D?style=for-the-badge&logo=hetzner&logoColor=white" alt="Hetzner VPS" />
 </p>
-
-### ⧉ ARCHITECTURE BLUEPRINT
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/architecture.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/architecture.svg">
-    <img alt="System Architecture Diagram" src="assets/architecture.svg" width="100%">
-  </picture>
-</div>
 
 ---
 <div align="center">
