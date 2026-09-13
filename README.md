@@ -19,12 +19,6 @@
   <img src="https://img.shields.io/badge/Hetzner_VPS-D50C2D?style=for-the-badge&logo=hetzner&logoColor=white" alt="Hetzner VPS" />
 </p>
 
-### 🛰️ LIVE TELEMETRY
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ibrahimshkeel1&theme=transparent" width="100%" />
-</div>
-
 ### ⧉ ARCHITECTURE BLUEPRINT
 
 <div align="center">
