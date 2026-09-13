@@ -25,13 +25,13 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ibrahimshkeel1&theme=transparent" width="100%" />
 </div>
 
-<br/>
+### ⧉ ARCHITECTURE BLUEPRINT
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ibrahimshkeel1/ibrahimshkeel1/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ibrahimshkeel1/ibrahimshkeel1/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ibrahimshkeel1/ibrahimshkeel1/output/github-contribution-grid-snake-dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/architecture.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/architecture.svg">
+    <img alt="System Architecture Diagram" src="assets/architecture.svg" width="100%">
   </picture>
 </div>
 

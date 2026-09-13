@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 350" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: transparent; }
+      .grid-line { stroke: #30363D; stroke-width: 1; opacity: 0.3; }
+      
+      .node { fill: #161B22; stroke-width: 1.5; rx: 6; }
+      .node-default { stroke: #30363D; }
+      .node-front { stroke: #58A6FF; filter: drop-shadow(0 0 8px rgba(88,166,255,0.2)); }
+      .node-auto { stroke: #F78166; filter: drop-shadow(0 0 8px rgba(247,129,102,0.2)); }
+      .node-ai { stroke: #A371F7; filter: drop-shadow(0 0 8px rgba(163,113,247,0.2)); }
+      .node-db { stroke: #3FB950; filter: drop-shadow(0 0 8px rgba(63,185,80,0.2)); }
+      
+      .edge { fill: none; stroke: #30363D; stroke-width: 1.5; }
+      .edge-active { fill: none; stroke: #8B949E; stroke-width: 1; stroke-dasharray: 4; opacity: 0.5; }
+      
+      .text-label { font-family: ui-monospace, Monaco, monospace; font-size: 12px; fill: #C9D1D9; text-anchor: middle; font-weight: bold; letter-spacing: 1px; }
+      .text-sub { font-family: ui-monospace, Monaco, monospace; font-size: 9px; fill: #8B949E; text-anchor: middle; }
+      .text-title { font-family: ui-monospace, Monaco, monospace; font-size: 10px; fill: #8B949E; letter-spacing: 2px; }
+      
+      .packet { fill: #58A6FF; filter: drop-shadow(0 0 4px #58A6FF); }
+      .packet-auto { fill: #F78166; filter: drop-shadow(0 0 4px #F78166); }
+      .packet-ai { fill: #A371F7; filter: drop-shadow(0 0 4px #A371F7); }
+      .packet-db { fill: #3FB950; filter: drop-shadow(0 0 4px #3FB950); }
+    </style>
+    
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" class="grid-line"/>
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" class="bg"/>
+  <rect width="100%" height="100%" fill="url(#grid)" rx="8"/>
+  
+  <text x="20" y="30" class="text-title">> SYSTEM_ARCHITECTURE_DIAGRAM</text>
+
+  <!-- Static Edges -->
+  <path d="M 80 175 L 150 175" class="edge"/>
+  <path d="M 270 160 L 320 160 L 320 100 L 370 100" class="edge"/>
+  <path d="M 270 190 L 320 190 L 320 250 L 370 250" class="edge"/>
+  <path d="M 490 100 L 630 100" class="edge"/>
+  <path d="M 490 250 L 630 250" class="edge"/>
+  <path d="M 490 115 L 560 115 L 560 235 L 630 235" class="edge"/>
+  
+  <path d="M 490 235 L 520 235 L 520 130 L 630 130" class="edge-active"/> <!-- API to AI -->
+
+  <!-- Animated Packets -->
+  <!-- Client to UI -->
+  <circle r="2.5" class="packet">
+    <animateMotion dur="2s" repeatCount="indefinite" path="M 80 172 L 150 172"/>
+  </circle>
+  <circle r="2.5" class="packet" style="fill: #C9D1D9;">
+    <animateMotion dur="2s" begin="1s" repeatCount="indefinite" path="M 150 178 L 80 178"/>
+  </circle>
+
+  <!-- UI to Auto -->
+  <circle r="2.5" class="packet">
+    <animateMotion dur="2.5s" repeatCount="indefinite" path="M 270 160 L 320 160 L 320 100 L 370 100"/>
+  </circle>
+  <circle r="2.5" class="packet-auto">
+    <animateMotion dur="2.5s" begin="1.2s" repeatCount="indefinite" path="M 370 105 L 325 105 L 325 165 L 270 165"/>
+  </circle>
+
+  <!-- UI to API -->
+  <circle r="2.5" class="packet">
+    <animateMotion dur="2.2s" begin="0.5s" repeatCount="indefinite" path="M 270 190 L 320 190 L 320 250 L 370 250"/>
+  </circle>
+  <circle r="2.5" class="packet-db">
+    <animateMotion dur="2.2s" begin="1.6s" repeatCount="indefinite" path="M 370 245 L 315 245 L 315 185 L 270 185"/>
+  </circle>
+
+  <!-- Auto to AI -->
+  <circle r="2.5" class="packet-auto">
+    <animateMotion dur="1.8s" repeatCount="indefinite" path="M 490 97 L 630 97"/>
+  </circle>
+  <circle r="2.5" class="packet-ai">
+    <animateMotion dur="1.8s" begin="0.9s" repeatCount="indefinite" path="M 630 103 L 490 103"/>
+  </circle>
+
+  <!-- Auto to DB -->
+  <circle r="2.5" class="packet-auto">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M 490 115 L 560 115 L 560 235 L 630 235"/>
+  </circle>
+
+  <!-- API to DB -->
+  <circle r="2.5" class="packet">
+    <animateMotion dur="1.5s" begin="0.2s" repeatCount="indefinite" path="M 490 247 L 630 247"/>
+  </circle>
+  <circle r="2.5" class="packet-db">
+    <animateMotion dur="1.5s" begin="1s" repeatCount="indefinite" path="M 630 253 L 490 253"/>
+  </circle>
+
+
+  <!-- Nodes (Rendered after edges so they sit on top) -->
+  <!-- Client -->
+  <circle cx="50" cy="175" r="26" class="node node-default"/>
+  <text x="50" y="179" class="text-label" style="font-size: 10px;">CLIENT</text>
+
+  <!-- Frontend -->
+  <rect x="150" y="145" width="120" height="60" class="node node-front"/>
+  <text x="210" y="175" class="text-label">NEXT.JS</text>
+  <text x="210" y="190" class="text-sub">Edge / UI</text>
+
+  <!-- Automation -->
+  <rect x="370" y="70" width="120" height="60" class="node node-auto"/>
+  <text x="430" y="100" class="text-label">N8N ENGINE</text>
+  <text x="430" y="115" class="text-sub">State / Workflows</text>
+
+  <!-- Backend -->
+  <rect x="370" y="220" width="120" height="60" class="node node-front"/>
+  <text x="430" y="250" class="text-label">FASTAPI</text>
+  <text x="430" y="265" class="text-sub">Core Services</text>
+
+  <!-- AI Models -->
+  <rect x="630" y="70" width="140" height="60" class="node node-ai"/>
+  <text x="700" y="100" class="text-label">VERTEX / DEEPSEEK</text>
+  <text x="700" y="115" class="text-sub">Intelligence / LLM</text>
+
+  <!-- Database -->
+  <rect x="630" y="220" width="140" height="60" class="node node-db"/>
+  <text x="700" y="250" class="text-label">SUPABASE</text>
+  <text x="700" y="265" class="text-sub">Postgres / Redis</text>
+
+</svg>
