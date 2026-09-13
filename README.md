@@ -43,4 +43,7 @@
   <a href="https://portfolio-lilac-gamma-87.vercel.app/">
     <img src="https://img.shields.io/badge/VIEW_PORTFOLIO-183B3F?style=for-the-badge&logo=vercel&logoColor=E7E0D4" alt="Portfolio" />
   </a>
+  <a href="https://www.linkedin.com/in/ibrahimshkeel/">
+    <img src="https://img.shields.io/badge/LINKEDIN-183B3F?style=for-the-badge&logo=linkedin&logoColor=E7E0D4" alt="LinkedIn" />
+  </a>
 </div>
