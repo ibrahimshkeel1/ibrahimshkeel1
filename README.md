@@ -6,23 +6,6 @@
   </picture>
 </div>
 
-<br/>
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="50%">
-        <b>SYS.LOCATION</b><br/>
-        <code>[ Lahore, Pakistan ]</code>
-      </td>
-      <td align="center" width="50%">
-        <b>SYS.STATUS</b><br/>
-        <code>[ Available for Opportunities ]</code>
-      </td>
-    </tr>
-  </table>
-</div>
-
 ### ⧉ CORE STACK
 
 <p align="center">
