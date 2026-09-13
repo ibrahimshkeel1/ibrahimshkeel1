@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/banner.svg">
-    <img alt="Animated Cyber-Physical Banner" src="assets/banner.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard-banner.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/dashboard-banner.svg">
+    <img alt="Animated Cyber-Physical Banner" src="assets/dashboard-banner.svg" width="100%">
   </picture>
 </div>
 
